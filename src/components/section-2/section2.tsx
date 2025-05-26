@@ -13,8 +13,8 @@ export default function Section2() {
             className="hidden dark:block max-w-full h-auto"
             src="/LOGO-PRO-DIGITAL-KEY-SUB-WHITE.png"
             alt="Logo Pro Digital Key"
-            width={220}
-            height={220}
+            width={250}
+            height={250}
             priority
           />
           <Image
