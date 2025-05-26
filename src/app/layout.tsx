@@ -13,7 +13,11 @@ const sora = Sora({
 export const metadata: Metadata = {
   title: "Leafy-AI",
   description: "Mais que um vaso inteligente.",
+  icons: {
+    icon: "/Logo.png",
+  },
 };
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
