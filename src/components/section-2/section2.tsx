@@ -13,16 +13,16 @@ export default function Section2() {
             className="hidden dark:block max-w-full h-auto"
             src="/LOGO-PRO-DIGITAL-KEY-SUB-WHITE.png"
             alt="Logo Pro Digital Key"
-            width={200}
-            height={200}
+            width={220}
+            height={220}
             priority
           />
           <Image
             className="block dark:hidden max-w-full h-auto"
             src="/LOGO-PRO-DIGITAL-KEY.png"
             alt="Logo Pro Digital Key"
-            width={200}
-            height={200}
+            width={220}
+            height={220}
             priority
           />
         </div>
@@ -45,16 +45,16 @@ export default function Section2() {
             className="hidden dark:block max-w-full h-auto"
             src="/logo_hollacards.png"
             alt="Logo Hollacards"
-            width={150}
-            height={150}
+            width={200}
+            height={200}
             priority
           />
           <Image
             className="block dark:hidden max-w-full h-auto"
             src="/logo_hollacards_2.png"
             alt="Logo Hollacards"
-            width={150}
-            height={150}
+            width={200}
+            height={200}
             priority
           />
         </div>
@@ -86,8 +86,8 @@ export default function Section2() {
             className="rounded-xl max-w-full h-auto"
             src="/Ferrokey_LOGO_FINAL-1024x222.png"
             alt="Logo Doretouch"
-            width={140}
-            height={140}
+            width={200}
+            height={200}
             priority
           />
         </div>
