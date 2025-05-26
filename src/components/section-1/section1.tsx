@@ -9,7 +9,7 @@ export default function Section1() {
         <div className="grid grid-cols-1 gap-6 max-w-4xl px-6 text-center">
           <div className="flex justify-center">
             <Image
-              src="/logo.png"
+              src="/Logo.png"
               alt="Leafy-AI logo"
               width={350}
               height={350}
