@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,12 +11,18 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 bg-white/90 dark:bg-[#1a2a1a]/90 backdrop-blur-md drop-shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo ou nome */}
-          <div className="text-2xl font-extrabold text-[var(--color-text)] dark:text-[var(--color-text-dark)] select-none">
-            MeuSite
+          {/* Logo */}
+          <div className="flex items-center">
+            <Image
+              src="/Logo.png"
+              alt="Leafy-AI logo"
+              width={80}
+              height={80}
+              priority
+            />
           </div>
 
-          {/* Botão hamburguer - mobile */}
+          {/* Botão hamburguer - apenas no mobile */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden flex items-center justify-center w-10 h-10 rounded-md border border-[rgba(50,100,30,0.5)] bg-[rgba(143,235,100,0.3)] text-[var(--color-text)] dark:text-[var(--color-text-dark)] hover:bg-[rgba(143,235,100,0.5)] transition"
