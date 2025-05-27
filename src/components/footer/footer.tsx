@@ -10,19 +10,19 @@ export default function Footer() {
           <p>
             Email:{' '}
             <a
-              href="mailto:leafyai@email.com"
+              href="mailto:project.leafy.ai@gmail.com"
               className="underline hover:text-green-500 transition-colors duration-200"
             >
-              leafyai@email.com
+              project.leafy.ai@gmail.com
             </a>
           </p>
           <p>
             Telefone:{' '}
             <a
-              href="tel:+351912345678"
+              href="tel:+351938174439"
               className="underline hover:text-green-500 transition-colors duration-200"
             >
-              +351 912 345 678
+              +351 938 174 439
             </a>
           </p>
         </div>
